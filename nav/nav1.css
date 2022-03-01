@@ -346,18 +346,65 @@ img {
     -webkit-transition-delay: 0.16s;
     transition-delay: 0.16s;
   }
-  ul li:nth-child(1) a {
-    background-color: rgb(91, 175, 253);
-}
+
+  .nav .list {
+    color: rgb(255, 255, 255);
+    font-family: 'Mochiy Pop P One';
+
+  }
+  ul li:nth-child(1) a:hover{
+    color: rgb(250, 232, 73);
+    /* color: rgb(255, 255, 255); */
+
+
+  }
+  ul li:nth-child(2) a:hover{
+    color: rgb(203, 250, 73);
+  }
+   ul li:nth-child(3) a:hover{
+    color: rgb(73, 215, 250);
+  }
+  ul li:nth-child(4) a:hover{
+    color: rgb(250, 85, 73);
+  }
+  ul li:nth-child(5) a:hover{
+    color: rgb(250, 73, 102);
+  }
+  ul li:nth-child(6) a:hover{
+    color: rgb(216, 162, 233);
+  }
+  ul li:nth-child(7) a:hover{
+    color: rgb(122, 134, 240);
+  }
+  ul li:nth-child(8) a:hover{
+    color: rgb(73, 250, 82);
+  }
+  /* ul li:nth-child(1) a {
+    color: rgb(250, 232, 73);
+    font-family: 'Mochiy Pop P One';
+
+  }
 ul li:nth-child(2) a {
-    background-color: #99d5f8e7;
+    /* background-color: #99d5f8e7; */
+    /* color: rgb(250, 232, 73);
+    
+    font-family: 'Mochiy Pop P One';
 }
-ul li:nth-child(3) a {
-    background-color: rgb(252, 101, 101);
+ul li:nth-child(3) a { */
+    /* background-color: rgb(252, 101, 101); */
+    /* color: rgb(250, 232, 73);
+   
+    font-family: 'Mochiy Pop P One';
+    
+
 }
-ul li:nth-child(4) a {
-    background-color: #FF80B0;
-}
+ul li:nth-child(4) a { */
+    /* background-color: #FF80B0; */
+  /*  font-family: 'Mochiy Pop P One';
+    color: rgb(250, 232, 73);
+
+
+} */
 /* .side-nav li.is-active {
   color: #0f33ff;
   -webkit-transition: color 0.4s ease-in-out;

@@ -46,8 +46,8 @@
   .button {
     position: relative;
     background-color: white;
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
     position: fixed;
     top: 5vh; 
@@ -59,22 +59,29 @@
   }
   @media (max-width: 425px) {
   .button{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
   }
 
     
   }
-
+  @media (max-width: 375px) {
+    .button{
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+  
+      
+    }
  
   .background {
-    height: 4rem;
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     position: fixed;
     top: 5.5vh; 
     right: 5.5vw; 
-    background-image: radial-gradient(green, black);
+    background-image: radial-gradient(#9A6D9A, black);
     z-index: 1000;
   
     transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -95,7 +102,7 @@
     width: 0;
     transition: all 0.8s;
   }
-  
+
   .list {
     position: absolute;
     top: 50%;
@@ -108,8 +115,13 @@
   
   .item {
     margin: 1rem;
-    font-size: 36px;
+    font-size: 30px;
   }
+  @media screen {
+    .item{
+        font-size: 23px;
+    }
+}
   
   .link:link,
   .link:visited {
@@ -171,6 +183,7 @@
           width: 1.5rem;
       }
   }
+
   .icon::before,
   .icon::after {
     content: "";
@@ -330,7 +343,11 @@
     background-image: radial-gradient(#393636, #1F1F1F);
     transition: 0.5s ease-out;
 }
-
+@media (max-width:425px) {
+   .events-card{
+    width: 30px;
+   }  
+}
 .all-events-type-container .events-card {
     width: 15%;
     min-width: 15%;

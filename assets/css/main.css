@@ -780,7 +780,13 @@ min-height: 100%;
 @media (max-width: 600px) {
   .intro--banner {
     height: 360px;
+    margin: auto;
   }
+  @media (max-width: 425px) {
+    .intro--banner {
+      height: 360px;
+      margin: auto;
+    }
   .intro--banner h1 {
     font-size: 55px;
   }
@@ -1284,6 +1290,11 @@ min-height: 100%;
   color: #fff;
   z-index: 2;
   font-size:larger;
+}
+@media  (min-width:425px){
+  .centered{
+    width: fit-content;
+  }
 }
 .contact--lockup {
   position: relative;
